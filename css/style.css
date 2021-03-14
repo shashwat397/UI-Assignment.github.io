@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+
+.sidebar {
+    height: 100vh;
+    box-shadow: 10px 0px 10px grey;
+}
+ 
+.sidebar .brand{
+    padding-bottom: 1.2em !important;
+}
+.sidebar i {
+    font-size: 2em;
+}
+.sidebar .buttons{
+    padding: 1em;
+    text-align: center;
+}
+
+.section {
+    height: 100vh;
+}
+
+.top-bar {
+    height: 68px;
+}
+
+.content {
+    padding: 1.2em;
+    height: 100%;
+    background-color: lightgrey;
+} 
+
+.content .upload{
+    text-align: center;
+    width:80%;
+    margin: 0 auto;
+}
+
+.content .upload input{
+    width: 100%;
+    border: none;
+    margin: 15px 0;
+    padding: 10px 15px;
+    display: block;
+}
+.content .upload .upload-box{
+    height: 200px;
+    width: 200px;
+    margin: 15px 0;
+    padding: 90px 0;
+    background-color: #fff;
+}
+
+.active{
+    background-color: lightblue;
+    border-left: 5px solid blue;
+}
